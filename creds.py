@@ -1,0 +1,6 @@
+bot_token = "YOUR TELEGRAM BOT TOKEN"
+bot_user_name = "BOT NAME"
+URL = "URL"
+my_chat_id = "YOUR CHAT ID"
+user_email = "YOUR EMAIL"
+user_password = "YOUR PASS"
