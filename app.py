@@ -28,7 +28,7 @@ Upassword = user_password
 
 app = Flask(__name__)
 with open(
-        'threadstatus.txt') as f: data = f.read()  # found this place to keep this code after putting print all over the place lol
+        'threadstatus.txt') as f: data = f.read()  
 if data != "thread started":
     with open('threadstatus.txt', "w") as f: f.write("thread started")
     x = threading.Thread(target=checker_thread)
